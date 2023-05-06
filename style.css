@@ -7,6 +7,11 @@
   font-size: 16px;
 }
 
+body {
+  margin: 0;
+  padding: 0;
+}
+
 header {
   display: flex;
   justify-content: space-between;
@@ -398,3 +403,86 @@ p {
 .authors-text h1 {
   margin: 0;
 }
+
+.who-container {
+  width: 100%;
+  background: #0062FF;
+}
+
+.who-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.who-heading {
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 120%;
+  text-align: center;
+  color: #FFFFFF;
+}
+
+.who-subheading {
+  width: 611px;
+  margin-bottom: 64px;
+  text-align: center;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 120%;
+  text-align: center;
+  color: #FFFFFF;
+}
+
+.who-wraper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 1262px;
+  gap: 46px;
+  margin-bottom: 64px;
+}
+
+.who-card {
+  display: flex;
+  align-items: center;
+  width: 607px;
+}
+
+.who-card img {
+  border-radius: 24px;
+  width: 150px;
+  height: 150px;
+}
+
+.who-card-info {
+  padding-left: 34px;
+}
+
+.who-card-info h1 {
+  margin: 0;
+  margin-bottom: 8px;
+  font-weight: 600;
+  font-size: 27px;
+  line-height: 120%;
+  color: #FFFFFF;
+}
+
+.who-card-info p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 120%;
+  color: #FFFFFF;
+}
+
+.who-btn {
+  padding: 10px 16px;
+  background: #FFFFFF;
+  border: 1px solid #2203E4;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 120%;
+  color: #2203E4;
+  margin-bottom: 71px;
+}
+
